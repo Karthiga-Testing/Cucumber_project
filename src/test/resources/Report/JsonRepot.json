@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-13T11:16:48.009Z",
+        "line": 5,
+        "name": "",
+        "description": "To verify the search text field with some product",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25319366270,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to launch the browser",
+            "match": {
+              "location": "StepDefinition4.user_has_to_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d91.0.4472.124)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027USER-PC\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 29904c729371698f7976ff4ced09ddd0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat org.pom.BaseClass.maximize(BaseClass.java:26)\r\n\tat org.step.StepDefinition4.user_will_enter_the_url(StepDefinition4.java:24)\r\n\tat ✽.user will enter the url(file:src/test/resources/amazon.feature:10)\r\n",
+              "duration": 62528126925,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user will enter the url",
+            "match": {
+              "location": "StepDefinition4.user_will_enter_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1306831,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user has to enter some product name",
+            "match": {
+              "location": "StepDefinition4.user_has_to_enter_some_product_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4492293,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user have to click the search button",
+            "match": {
+              "location": "StepDefinition4.user_have_to_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1254538,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user get the product to visible",
+            "match": {
+              "location": "StepDefinition4.user_get_the_product_to_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate the searching functionality",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/amazon.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
